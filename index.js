@@ -1,5 +1,6 @@
-// How to Run: Type into the terminal:
+// How to Run: Type into the terminal one of the two options cause it doesn't matter:
 // >> node index.js
+// >> nodemon index.js
 
 const { initializeApp } = require('firebase/app');
 const { getFirestore, addDoc, collection } = require('firebase/firestore');
